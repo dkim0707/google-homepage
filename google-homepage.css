@@ -1,0 +1,62 @@
+#mainElement {
+    position: relative;
+    margin: auto;
+    width: 75%;
+    top: 200px;
+}
+
+img, input[type=text] {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mainElement img {
+    width: 250px;
+    padding-left: 50px;
+}
+
+input[type=text] {
+    width: 65%;
+    margin: 20px auto;
+}
+
+#mainElementButtons, p {
+    text-align: center;
+}
+
+p {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+li {
+    display: inline;
+}
+
+#rightHeader {
+    float: right;
+}
+
+#leftHeader {
+    float: left;
+}
+
+li a {
+    margin: 20px 5px;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a img {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
