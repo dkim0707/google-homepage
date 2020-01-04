@@ -38,8 +38,14 @@ li {
     display: inline;
 }
 
-#rightHeader {
-    float: right;
+#bottomLeftheader1, #bottomLeftHeader2, #bottomRightHeader {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+}
+
+#rightHeader, #bottomLeftHeader1, #bottomLeftHeader2 {
+    float: left;
 }
 
 #leftHeader {
