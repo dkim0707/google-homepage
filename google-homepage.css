@@ -1,10 +1,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
 }
 
-div.header a, div.footer a {
+div.header a, div.bottomFooter a {
     color: #333333;
     font-style: normal;
+}
+
+div.header a:hover, div.bottomFooter a:hover {
+    color: #5a5a5a;
 }
 
 a {
@@ -89,4 +94,29 @@ input:focus, input:hover {
     border-style: outset;
     border-color: rgba(196,196,196,.7);
     border-width:.5px;
+}
+
+div.topFooter, div.bottomFooter {
+    background-color: #f0f0f0;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+}
+
+div.topFooter {
+    bottom: 43px;
+    border: #d1d1d1 solid 0.5px;
+}
+
+div.bottomFooter {
+    bottom: 0px;
+}
+
+ul.bottomFooterRight {
+    float: right;
+    margin-right: 13px;
+}
+
+ul.bottomFooterLeft {
+    float: left;
 }
