@@ -1,28 +1,28 @@
 body {
-    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
+div.header a, div.footer a {
     color: #333333;
     font-style: normal;
-    text-decoration: none;
 }
 
-
+a {
+    text-decoration: none;
+}
+    
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
 }
 
-.right {
+ul.right {
     float: right;
     padding: 17px 13px;
 }
 
-.left {
+ul.left {
     float: left;
     padding: 17px 13px;
 }
@@ -32,11 +32,61 @@ li {
     padding-right: 15px;
 }
 
-.header {
+div.header {
     height: 20%;
 }
 
-.icon {
+img.icon {
     width: 30px;
     vertical-align: middle;
+}
+
+div.mainElement {
+    margin: 17% auto;
+    width: 80%;
+    text-align: center;
+    clear: both;
+}
+
+input[type="text"] {
+    width: 460px;
+    margin: 30px;
+    padding: 13px;
+    border-radius: 40px;
+    border-width: .5px;
+    border-style: solid;
+    border-color: #dddddd;
+    background-image: url(search.png); 
+    background-size: 14px;
+    background-repeat: no-repeat; 
+    text-indent: 40px;
+    background-position: 15px 15px;
+}
+
+button {
+    margin: 0px 5px 30px 0px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+    color: #707070;
+    padding: 10px 18px;
+    border-radius: 5px;
+    border-color: #f0f0f0;
+    border-style: solid;
+    border-width: 1px;
+}
+
+button:hover {
+    border-style: solid;
+    border-color: darkgray;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input:focus, input:hover {
+    border-style: outset;
+    border-color: rgba(196,196,196,.7);
+    border-width:.5px;
 }
