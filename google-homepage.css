@@ -1,68 +1,42 @@
-#mainElement {
-    position: relative;
-    margin: auto;
-    width: 75%;
-    top: 200px;
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-img, input[type=text] {
-    display: block; 
-    margin-left: auto;
-    margin-right: auto;
+a {
+    color: #333333;
+    font-style: normal;
+    text-decoration: none;
 }
 
-#mainElement img {
-    width: 250px;
-    padding-left: 50px;
-}
 
-input[type=text] {
-    width: 65%;
-    margin: 20px auto;
-}
-
-#mainElementButtons, p {
-    text-align: center;
-}
-
-p {
-    margin-top: 20px;
-}
 
 ul {
     list-style-type: none;
-    margin-top: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.right {
+    float: right;
+    padding: 17px 13px;
+}
+
+.left {
+    float: left;
+    padding: 17px 13px;
 }
 
 li {
     display: inline;
+    padding-right: 15px;
 }
 
-#bottomLeftheader1, #bottomLeftHeader2, #bottomRightHeader {
-    clear: both;
-    position: fixed;
-    bottom: 0;
+.header {
+    height: 20%;
 }
 
-#rightHeader, #bottomLeftHeader1, #bottomLeftHeader2 {
-    float: left;
+.icon {
+    width: 30px;
+    vertical-align: middle;
 }
-
-#leftHeader {
-    float: left;
-}
-
-li a {
-    margin: 20px 5px;
-    color: black;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-li a img {
-    display: inline;
-    width: 20px;
-    height: 20px;
-    position: relative;
-}
-
